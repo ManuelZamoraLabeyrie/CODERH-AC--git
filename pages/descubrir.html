@@ -15,18 +15,41 @@
     <title>ACÑ-Arte</title>
 </head>
 <body>
-    <nav>
-        <a href="../index.html">
-            <img src="../media/logo/educacion-sexual.png" alt="logo-banana" width="100px">
-        </a>
-        <a class="links-menu" href="#">Arte</a>
-        <a class="links-menu" href="./nosotros.html">Nosotros</a>
-        <a class="links-menu" href="./contacto.html">Contacto</a>
-        <a class="links-menu" href="./carrito.html">Carrito</a>
-        <a class="links-menu" href="./iniciar-sesion.html">Iniciar Sesión</a>
+  <main id="main-index">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+          <img src="../media/logo/educacion-sexual.png" alt="logo-banana" width="100px">
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link links-menu" href="#">Arte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links-menu" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links-menu" href="../pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links-menu" href=".../pages/carrito.html">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links-menu" href="./pages/iniciar-sesion.html">Iniciar Sesión</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
     </nav>
 
-    <main id="main-index">
     </main>
     <section id="menudisplay">
         <img src="../media/productos/banana1.jpg" alt="banana1">
@@ -45,7 +68,7 @@
             <img src="../media/productos/banana2.jpg" class="d-block w-100" alt="banana2">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="../media/productos/tatu-cora.jpg" class="d-block w-100" alt="tatu-cora">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -75,5 +98,7 @@
     <footer id="pie">
         <p>Desarrollado por Manuel Zamora Labeyrie</p>
     </footer>
+
+    <script src="../Bootstrap/libreria/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

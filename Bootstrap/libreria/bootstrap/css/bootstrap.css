@@ -741,6 +741,8 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  display: grid;
+  justify-items: center;
 }
 
 @media (min-width: 576px) {
@@ -4117,7 +4119,7 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -5981,6 +5983,7 @@ textarea.form-control-lg {
 
 .carousel {
   position: relative;
+  height: 500px;
 }
 
 .carousel.pointer-event {
@@ -5993,17 +5996,16 @@ textarea.form-control-lg {
   overflow: hidden;
 }
 .carousel-inner::after {
-  display: block;
+  display: none;
   clear: both;
   content: "";
 }
 
 .carousel-item {
-  position: relative;
   display: none;
   float: left;
-  width: 100%;
-  margin-right: -100%;
+  width: 420px;
+  align-items: center;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;

@@ -10,78 +10,79 @@
     <title>ACÑ-Nosotros</title>
 </head>
 <body>
-    <nav>
-        <a href="../index.html">
-            <img src="../media/logo/educacion-sexual.png" alt="logo-banana" width="100px">
-        </a>
-        <a class="links-menu" href="./descubrir.html">Arte</a>
-        <a class="links-menu" href="#">Nosotros</a>
-        <a class="links-menu" href="./contacto.html">Contacto</a>
-        <a class="links-menu" href="./carrito.html">Carrito</a>
-        <a class="links-menu" href="./iniciar-sesion.html">Iniciar Sesión</a>
-    </nav>
-
-    <main id="main-nosotros">
-    <div id="actividad1" class="actividad1">
-        <p class="actividad1">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Pariatur dignissimos ullam non dolores tempore harum, animi modi suscipit iure? 
-            Commodi, esse nemo! Repellendus beatae odio deleniti, autem culpa esse nisi!
-        </p>
-    </div>
-
-    <div class="grupo">
-        <div class="parrafos">
-            <p>Primer Parrafo</p>
-            <p>Segundo Parrafo</p>
-            <p>Tercer Parrafo</p>
-        </div>
-    </div>
-    <!--first and last type
-    <div class="grupo">
-        <div class="elementos">
-            <div>div</div>
-            <p>parraf</p>
-            <span>span</span>
-            <div>div</div>
-            <p>parraf</p>
-        </div>
-    </div>
--->
-    
-
-    <!--CSS GRID-->
-    <div class="grid-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-    </div>
-
-    <section class="flex-container">
-    <div class="caja c1">Caja 1</div>
-    <div class="caja c2">Caja 2</div>
-    <div class="caja c3">Caja 3</div>
-    </section>
-
-    <div id="grilla">
-        <header id="banner" class="border">Header</header>
-        <section id="productos" class="border">Productos</section>
-        <section id="servicios" class="border">Servicios</section>
-        <nav id="navgrid" class="border">Navegacion</nav>
-        <aside class="border">Aside</aside>
-        <footer id="piedepagina" class="border">Pie de Pagina</footer>
-    </div>
+    <main>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../media/logo/educacion-sexual.png" alt="logo-banana" width="100px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link links-menu" href="../pages/descubrir.html">Arte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links-menu" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links-menu" href="../pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links-menu" href=".../pages/carrito.html">Carrito</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links-menu" href="./pages/iniciar-sesion.html">Iniciar Sesión</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
     </main>
 
+    <div class="grid-container">
+        <header>Te Soñe en el Patio</header>
+        <aside class="izquierda">Artista Agustin Casañas</aside>
+        <article>Esta serie de cuadros son representaciones de macetas típicas de nuestro país, fabricadas hace décadas y siguen intactas (o casi) porque fueron cambiando de dueños, 
+            moviéndose siempre entre seres queridos y siendo cuidadas por los mismos. 
+            De esta manera se empieza a cargar de valor sentimental y pasa a ser un objeto de gran aprecio, 
+            contenedor de vida y magia; cada maceta se transforma en un generador de recuerdo y así, de sentimientos. 
+            “Te soñé en el patio” actualmente es una constante, trata de una serie de diseños y la multiplicidad de los mismos. 
+            Es pensado para realizarse en diversos soportes, utilizando múltiples medios y herramientas. 
+            Esta multiplicidad pasa por soportes tan diversos como el papel de algodón o el muro. 
+            De esta manera investigo las diferentes interpretaciones que se pueden lograr y sentimientos que se generan alrededor de las mismas. 
+            Teniendo en cuenta los diferentes escenarios en los que se las puede encontrar a estas “macetas” podemos pensar en diversas experiencias.
+        </article>
+        <aside class="derecha">Año de producción: 2017</aside>
+        <footer>Más Series Proximamente </footer>
+    </div>
 
+    <div class="container text-center">
+        <div class="row">
+        <div class="col">
+            Tatuajes
+        </div>
+        <div class="col">
+            Alfombras
+        </div>
+        <div class="col">
+            Laminas
+        </div>
+        </div>
+    </div>
+
+    
     <footer id="pie">
         <p>Desarrollado por Manuel Zamora Labeyrie</p>
     </footer>
+
+    
+    <script src="../Bootstrap/libreria/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
